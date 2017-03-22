@@ -1,0 +1,103 @@
+<link href="css/base.css" rel="stylesheet" type="text/css">
+<link href="css/bike.css" rel="stylesheet" type="text/css">
+<script src="js/payment.js" style="text/javascript"></script>
+
+<div class="wb90 center pat20">
+    <!-- delivery -->
+    <div class="fl wb50  h80px warpper-blue-5 ">
+        <div 
+
+
+    </div>
+    <!-- order summary -->
+    <div class="fr wb44  bor-solid-1a ">
+        <div class="h40px lh40px F14 fc-gray01 bor-solid-1b">
+            <div class="fl wb80"><span class="pal20">Order Summary</span></div>
+            <div class="fl wb20 text-center">Price</div>
+        </div>
+        <div class="F12 fc-gray01 pat20 pab20 h100px">
+            <div class="fl over-hidden"><img class="maxH100px maxW100px pal20"  src="https://ae01.alicdn.com/kf/HTB1EgYnPVXXXXc8aXXXq6xXFXXXd/SeaKnight-TREANT-Series-Spinning-Fishing-Reel-5-2-1-10-1-Ball-Bearings-2017-Carbon-Fiber.jpg"></div>
+            <div class="fl wb50">
+                <div class="pa10">SeaKnight TREANT Series Spinning Fishing Reel 5.2:1 10+1 Ball Bearings 2017 Carbon Fiber Drag System Max Drag 8-12KG Fish Gear</div>
+                <div class="pal10 pat5 text-center">
+                    <a id="jia" href="javascript:void(0)" class="js-min2 display-inline min2 F16 fc-gray02 middle fl bor-solid-1a borc-gray01"
+                       onclick=calculateSubtotal('jian')>-</a>
+                    <input class="js-text_box2 text_box2 middle fl text-center F14 fc-gray03" name="num[]" id="count" type="text" value=1 >
+                    <a id="jian" href="javascript:void(0)" class="js-add2 display-inline add2 F16 fc-gray02 middle fl bor-solid-1a borc-gray01"
+                       onclick=calculateSubtotal('jia')>+</a>
+
+                </div>
+            </div>
+            <div class="fr wb20 text-center lh100px">$ <span>20</span></div>
+        </div>
+
+    </div>
+
+</div>
+
+<!--<div class="w1140px center pat20">-->
+    <!--<div class="mat15 bor-solid-1t borc-black01">-->
+<!--<div id="cartpro">-->
+    <!--<div class="h40px lh40px bgc-gray04 F14 fc-gray01">-->
+        <!--<div class="fl wb55"><span class="pal20">Item Description</span></div>-->
+        <!--<div class="fl wb11 text-center">Quantity</div>-->
+        <!--<div class="fl wb12 text-center">Item Price</div>-->
+        <!--<div class="fl wb12 text-center">Subtotal</div>-->
+        <!--<div class="fl wb10 text-center">Operation</div>-->
+        <!--<div class="clear"></div>-->
+    <!--</div>-->
+    <!--<div class="">-->
+        <!--<ul>-->
+            <!--<form action="/Order" method="post" id="f">-->
+                <!--<li class="cart-list pat20 pab20 bor-solid-1b borc-gray01">-->
+                    <!--<div class="fl wb55">-->
+                        <!--<div class="fl wb13"><a href="index.php"><img src="https://ae01.alicdn.com/kf/HTB1EgYnPVXXXXc8aXXXq6xXFXXXd/SeaKnight-TREANT-Series-Spinning-Fishing-Reel-5-2-1-10-1-Ball-Bearings-2017-Carbon-Fiber.jpg" width="90" height="90" class="bor-solid-1a borc-gray01"></a></div>-->
+                        <!--<div class="fr wb84">-->
+                            <!--<div class="mab10"><a class="F14 fc-blue02 h-green01" href="index.php">SeaKnight TREANT Series Spinning Fishing Reel</a>-->
+                            <!--</div>-->
+
+
+                        <!--</div>-->
+                        <!--<div class="clear"></div>-->
+                    <!--</div>-->
+                    <!--<div class="fl wb11">-->
+                        <!--<div class="w110px text-center center">-->
+                            <!--<a id="jia" href="javascript:void(0)" class="js-min2 display-inline min2 F16 fc-gray02 middle fl bor-solid-1a borc-gray01"-->
+                               <!--onclick=calculateSubtotal('jian')>-</a>-->
+                            <!--<input class="js-text_box2 text_box2 middle fl text-center F14 fc-gray03" name="num[]" id="count" type="text" value=1 >-->
+                            <!--<a id="jian" href="javascript:void(0)" class="js-add2 display-inline add2 F16 fc-gray02 middle fl bor-solid-1a borc-gray01"-->
+                               <!--onclick=calculateSubtotal('jia')>+</a>-->
+                            <!--<div class="clear"></div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="fl wb12 text-center">-->
+                        <!--<div class="mab10 F15 fc-gray01">$<span class="sale_price" id="price">12.00</span>-->
+                        <!--</div>-->
+
+                    <!--</div>-->
+                    <!--<div class="fl wb12 text-center">-->
+                        <!--<div class="F15 fc-gray01">$<span class="price" id="subtotal">12</span></div>-->
+                    <!--</div>-->
+                    <!--<div class="fl wb10 text-center">-->
+                        <!--<a class="F13 fc-gray01 h-green01" href="javascript:void(0)" onclick="onajax('/cart/cartpro?id=618&amp;ac=del')">delete</a>-->
+                    <!--</div>-->
+                    <!--<div class="clear"></div>-->
+                <!--</li>    </form></ul>-->
+    <!--</div>-->
+    <!--<div class="clear1"></div>-->
+    <!--<div class="">-->
+        <!--<div class="fr wb40">-->
+
+            <!--<div class="mab10 F16 fc-gray01">-->
+                <!--<div class="fl">Items Subtotal (including discounts)</div>-->
+                <!--<div class="fr">$<span class="totle_price" id="itemtotal">12</span></div>-->
+                <!--<div class="clear"></div>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="clear"></div>-->
+    <!--</div>-->
+
+<!--</div>-->
+
+<!--</div>-->
+<!--</div>-->
